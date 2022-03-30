@@ -7,7 +7,7 @@ Research question: What impact does the MJO have on sea surface temperature and 
 The goal of this project is to identify the impact that the Madden-Julian Oscillation has on phytoplankton biomass (using chlorophyll-a as a proxy) and sea surface temperature. Team members: Cassia Cai, Pedro Angulo-Umana, Maochuan Zhang, and Yasmine Hentati. 
 
 Data used:
-1. [Chlorophyll-a concentrations](https://nasa-develop.github.io/dnppy/modules/modis.html)
+1. [Chlorophyll-a concentrations](https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-sea-level-global?tab=overview)
 2. [MJO index](https://psl.noaa.gov/mjo/mjoindex/)
 3. [ERA5 daily Precipitation](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_DAILY#bands)
 4. [ERA5 daily sea surface temperature](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_DAILY#bands)
