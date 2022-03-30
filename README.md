@@ -14,6 +14,7 @@ Data used:
 5. [ERA5 daily wind u- and v-components](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_DAILY#bands) 
 
 All analysis will be completed in Jupyter Notebooks. 
+
 Tasks:
 1. Load data for a specific region (160°W to 120°W, 35°N to 60°N) 
 2. Correlation, lead-lag, time series analysis and other useul visualizations and/or statistics
