@@ -2,7 +2,7 @@
 
 ## Research Derby project to study the connection between MJO, chlorophyll-a, and SST
 
-Research question: What impact does the MJO have on sea surface temperature and phytoplankton biomass in the Pacific Northwest (2010 to 2020)? 
+Research question: What impact does the MJO have on sea surface temperature and phytoplankton biomass in the Pacific Northwest during the summers of 2010 to 2020? 
 
 The goal of this project is to identify the impact that the Madden-Julian Oscillation has on phytoplankton biomass (using chlorophyll-a as a proxy) and sea surface temperature. Team members: Cassia Cai, Pedro Angulo-Umana, Maochuan Zhang, and Yasmine Hentati. 
 
@@ -18,6 +18,12 @@ All analysis will be completed in Jupyter Notebooks.
 Tasks:
 1. Load data for a specific region (160°W to 120°W, 35°N to 60°N) 
 2. Correlation, lead-lag, time series analysis and other useul visualizations and/or statistics
+
+Preliminary figures:
+
+<img width="751" alt="Screen Shot 2022-03-31 at 3 09 02 PM" src="https://user-images.githubusercontent.com/52092892/161157478-55c1c6ea-d4ff-4e56-8876-89fd81402dbc.png">
+
+<img width="711" alt="Screen Shot 2022-03-31 at 3 09 57 PM" src="https://user-images.githubusercontent.com/52092892/161157493-48ca80a5-0c24-44c0-af29-3a50ec66ed9f.png">
 
 ### References
 1. Lee, R. W., Woolnough, S. J., Charlton‐Perez, A. J., & Vitart, F. (2019). ENSO modulation of MJO teleconnections to the North Atlantic and Europe. Geophysical Research Letters, 46(22), 13535-13545.
