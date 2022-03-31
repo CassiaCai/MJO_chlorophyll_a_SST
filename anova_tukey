@@ -1,0 +1,40 @@
+
+import pandas as pd
+import researchpy as rp
+
+# import the data
+df= pd.read_csv("data.csv")
+sst = # subset sst data
+phase = # subset phase data
+# you want phase data to be string not numeric 
+
+# homogeneity
+# do this for every phase
+stats.levene(df['sst'][df['phase'] == '1'],
+             df['sst'][df['phase'] == '2'],
+             df['sst'][df['phase'] == '3'],
+             df['sst'][df['phase'] == '4'],
+             df['sst'][df['phase'] == '5'],
+             df['sst'][df['phase'] == '6'],
+             df['sst'][df['phase'] == '7'],
+             df['sst'][df['phase'] == '8'])
+# you want this to be insignificant 
+
+
+# Shapiro-Wilk test for normality
+stats.shapiro(df['sst'])
+# you want this to be insignificant 
+
+import pingouin as pg
+
+# repeated measure anova
+# DV is SST, within is groups (phases)
+pg.rm_anova(data=df, dv='Scores', within='Time', subject='Subject', detailed=True)
+
+
+# tukey HSD test
+from statsmodels.stats.multicomp import pairwise_tukeyhsd
+
+# perform multiple pairwise comparison (Tukey HSD)
+m_comp = pairwise_tukeyhsd(endog=df['sst'], groups=df['phase'], alpha=0.05)
+print(m_comp)
