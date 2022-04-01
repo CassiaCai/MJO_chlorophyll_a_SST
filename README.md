@@ -2,7 +2,7 @@
 
 ## Research Derby project to study the connection between MJO, chlorophyll-a, and SST
 
-Research question: What impact does the MJO have on sea surface temperature and phytoplankton biomass in the Pacific Northwest during the summers of 2010 to 2020? 
+Research question: What impact does the MJO have on sea surface temperature and phytoplankton biomass in the Northeast Pacific Ocean during the summers of 2010 to 2020? 
 
 The goal of this project is to identify the impact that the Madden-Julian Oscillation has on phytoplankton biomass (using chlorophyll-a as a proxy) and sea surface temperature. Team members: Cassia Cai, Pedro Angulo-Umana, Maochuan Zhang, and Yasmine Hentati. 
 
